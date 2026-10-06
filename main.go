@@ -1,15 +1,15 @@
 package main
 
 import (
-	"os"
 	"fmt"
-	"os/user"
 	"github.com/joalberto902/monkey_interpreter/repl"
+	"os"
+	"os/user"
 )
 
 func main() {
 	user, err := user.Current()
-	if err != nil { 
+	if err != nil {
 		panic(err)
 	}
 
